@@ -32,12 +32,6 @@
 
 ###
 
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/NiceDayZc/NiceDayZc/blob/output/snake.svg" alt="Snake animation" />
-
-###
-
 <div align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=NiceDayZc.NiceDayZc&left_color=dimgrey&right_color=cornflowerblue"  />
 </div>
