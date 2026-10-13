@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="60" viewBox="0 0 1200 60" xml:space="preserve">
+<style>text{font-family:'Cascadia Code','JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace;white-space:pre}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs><linearGradient id="hl" x1="0" x2="1"><stop offset="0" stop-color="#0a0a0a" stop-opacity=".35"/><stop offset="1" stop-color="#0a0a0a" stop-opacity="0"/></linearGradient></defs>
+<path d="M6.2 24.8L12.14 30.3L6.2 35.8" stroke="#8a8a8a" stroke-width="2.64" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<text x="30.4" y="38" font-size="22" fill="#8a8a8a" textLength="26.4" lengthAdjust="spacing">~/</text><text x="56.8" y="38" font-size="22" fill="#0a0a0a" font-weight="700" textLength="105.6" lengthAdjust="spacing">projects</text>
+<rect x="180.4" y="30" width="1019.6" height="1.5" fill="url(#hl)"/>
+</svg>

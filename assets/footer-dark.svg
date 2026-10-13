@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="70" viewBox="0 0 1200 70" xml:space="preserve">
+<style>text{font-family:'Cascadia Code','JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace;white-space:pre}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs><linearGradient id="fl" x1="0" x2="1"><stop offset="0" stop-color="#fafafa" stop-opacity="0"/><stop offset=".5" stop-color="#fafafa" stop-opacity="0.45"/><stop offset="1" stop-color="#fafafa" stop-opacity="0"/></linearGradient></defs>
+<rect width="1200" height="1.5" fill="url(#fl)"/>
+<text x="600" y="46" font-size="16" fill="#737373" text-anchor="middle" textLength="268.8" lengthAdjust="spacing">[process exited with code 0]</text>
+</svg>

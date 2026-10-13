@@ -1,0 +1,39 @@
+# Re-renders the README assets so the star and fork counts on the project cards stay current.
+name: refresh cards
+
+on:
+  schedule:
+    - cron: "17 2 * * *" # 09:17 in Bangkok
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [scripts/render.py, .github/workflows/refresh.yml]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-cards
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Render SVGs
+        run: python3 scripts/render.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit changed assets
+        run: |
+          git add assets
+          if git diff --cached --quiet; then
+            echo "assets unchanged"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh profile cards"
+          git push
