@@ -7,7 +7,6 @@
 <br />
 
 **I take closed apps apart and rebuild their private APIs as clean Python SDKs.**<br />
-<sub>แกะ protocol · เขียน SDK · สาย cyber security</sub>
 
 <br />
 
